@@ -4,11 +4,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 .header{
+    position: fixed;
+    padding: 8px 0;
+    width: 100%;
+    z-index: 5;
     display: flex;
     justify-content: space-between;
     height: 40px;
-    margin: 8px 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
 }
 .logo{
     height: 40px;
@@ -33,7 +36,7 @@
 .header_name {
 
     background-image: url(../images/main_theme.jpg);
-    height: calc(100vh - 48px);
+    height: calc(100vh);
     background-size: cover;
     margin-bottom: 50px;
     display: flex;
@@ -92,8 +95,8 @@
 
 .sidebar{
     position: absolute;
-    top:48px;
-    height: calc(100vh - 84px);
+    top:56px;
+    height: calc(100vh - 91px);
     width: 190px;
     padding-left: 40px;
     padding-top: 35px;
